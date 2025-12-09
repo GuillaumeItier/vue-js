@@ -1,8 +1,8 @@
 <template>
     <div>
-        <button v-on:click="moins" type="button" class="btn btn-danger">-</button>
+        <button v-on:click.left="moins(number1)" type="button" class="btn btn-danger">-</button>
         <p>le nombre : {{ number }}</p>
-        <button v-on:contextmenu.prevent="plus" type="button" class="btn btn-success">+</button>
+        <button v-on:click.right.prevent="plus(number2)" type="button" class="btn btn-success">+</button>
     </div>
 </template>
 
@@ -10,11 +10,13 @@
 import { ref } from 'vue';
 
     let number = ref(0);
-    function plus (){
-        number.value += 10;
+    let number1 = ref(11);
+    let number2 = ref(22);
+    function plus (nbr){
+        number.value += nbr;
     }
-    function moins (){
-        number.value -= 10;
+    function moins (nbr){
+        number.value -= nbr;
     }
 
 </script>
