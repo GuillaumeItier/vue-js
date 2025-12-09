@@ -6,10 +6,13 @@ import ExerciceTextInterpolation from './components/Exercice-text-interpolation.
 import ButtonTest from './components/Button-test.vue';
 import ExerciceVon from './components/Exercice-v-on.vue';
 import TpEventBinding from './components/Tp-event-binding.vue';
+import lessonTwoWayBinding from './components/lesson-two-way-binding.vue';
+import ExerciceBug from './components/Exercice-bug.vue';
+
 </script>
 
 <template>
-<TpEventBinding/>
+<ExerciceBug/>
   
   <!-- <Bienvenue/>
   <div>
