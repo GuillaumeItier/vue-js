@@ -2,13 +2,14 @@
 import TpDataBinding from './components/TpDataBinding.vue';
 import Bienvenue from './components/Bienvenue.vue';
 import HelloWorld from './components/HelloWorld.vue';
-import ExerciceTextInterpolation from './components/ExerciceTextInterpolation.vue';
+import ExerciceTextInterpolation from './components/Exercice-text-interpolation.vue';
 import ButtonTest from './components/Button-test.vue';
 import ExerciceVon from './components/Exercice-v-on.vue';
+import TpEventBinding from './components/Tp-event-binding.vue';
 </script>
 
 <template>
-<ExerciceVon/>
+<TpEventBinding/>
   
   <!-- <Bienvenue/>
   <div>
