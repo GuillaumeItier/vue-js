@@ -9,11 +9,12 @@ import TpEventBinding from './components/Tp-event-binding.vue';
 import lessonTwoWayBinding from './components/lesson-two-way-binding.vue';
 import ExerciceBug from './components/Exercice-bug.vue';
 import TpReactivite from './components/Tp-reactivite.vue';
+import ExerciceStyleDynamique from './components/Exercice-style-dynamique.vue';
 
 </script>
 
 <template>
-<TpReactivite/>
+<ExerciceStyleDynamique/>
   
   <!-- <Bienvenue/>
   <div>
