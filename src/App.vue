@@ -12,11 +12,12 @@ import TpReactivite from './components/Tp-reactivite.vue';
 import ExerciceStyleDynamique from './components/Exercice-style-dynamique.vue';
 import TpStyleDynamique from './components/Tp-style-dynamique.vue';
 import ExerciceVIf from './components/Exercice-v-if.vue';
+import ExerciceVFor from './components/Exercice-v-for.vue';
 
 </script>
 
 <template>
-<ExerciceVIf/>
+<ExerciceVFor/>
   
   <!-- <Bienvenue/>
   <div>
