@@ -11,11 +11,12 @@ import ExerciceBug from './components/Exercice-bug.vue';
 import TpReactivite from './components/Tp-reactivite.vue';
 import ExerciceStyleDynamique from './components/Exercice-style-dynamique.vue';
 import TpStyleDynamique from './components/Tp-style-dynamique.vue';
+import ExerciceVIf from './components/Exercice-v-if.vue';
 
 </script>
 
 <template>
-<TpStyleDynamique/>
+<ExerciceVIf/>
   
   <!-- <Bienvenue/>
   <div>

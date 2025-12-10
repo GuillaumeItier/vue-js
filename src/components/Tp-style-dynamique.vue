@@ -2,13 +2,13 @@
     <form action="">
             <div v-bind:class="class1" ></div>
             <input class="form-control"   type="text"   v-on:keyup="chooseClass($event)"></input>
-            <p v-bind:class="noneOrNot" >classe {{ class1 }} activé</p>
+            <p v-bind:class="noneOrNot" >classe :  {{ class1 }}  activée !</p>
             <p v-bind:class="maClasse">{{ txt }}</p>
             <input class="form-control" type="text"  v-on:keyup="chooseStyle($event)"></input>
             <p v-bind:style="colorStyle">{{ txt1 }}</p>
             <button type="button" class="btn btn-primary" v-on:click="changeClass()" >Afficher le 1er Titre</button>
         </form>
-    
+        
 </template>
 
 <script setup>
