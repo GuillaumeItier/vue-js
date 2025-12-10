@@ -8,11 +8,12 @@ import ExerciceVon from './components/Exercice-v-on.vue';
 import TpEventBinding from './components/Tp-event-binding.vue';
 import lessonTwoWayBinding from './components/lesson-two-way-binding.vue';
 import ExerciceBug from './components/Exercice-bug.vue';
+import TpReactivite from './components/Tp-reactivite.vue';
 
 </script>
 
 <template>
-<ExerciceBug/>
+<TpReactivite/>
   
   <!-- <Bienvenue/>
   <div>
