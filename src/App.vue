@@ -13,11 +13,12 @@ import ExerciceStyleDynamique from './components/Exercice-style-dynamique.vue';
 import TpStyleDynamique from './components/Tp-style-dynamique.vue';
 import ExerciceVIf from './components/Exercice-v-if.vue';
 import ExerciceVFor from './components/Exercice-v-for.vue';
+import TpRendering from './components/Tp-conditionnal-list-rendering-v-for.vue';
 
 </script>
 
 <template>
-<ExerciceVFor/>
+<TpRendering/>
   
   <!-- <Bienvenue/>
   <div>
