@@ -12,7 +12,7 @@
                                         v-on:click="deleteMovie(index)">
                                         {{index}} - {{ film }}</li>
                 </ul>
-                <button type="button" class="btn btn-primary" v-on:click="changeButton" v-if="movieArray.length !== 0">{{ displayButton }}</button>
+                <button id="addButton" type="button" class="btn btn-primary" v-on:click="changeButton" v-if="movieArray.length !== 0">{{ displayButton }}</button>
             </div>
         </form>
     </div>
@@ -56,25 +56,30 @@
 
 </script>
 
-<style>
+<style scoped>
     #divForm{
         border: 1px solid grey;
         margin-left: 50px;
-        height: 400px;
-        width: 400px;
+        height: auto;
+        width: 500px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        gap: 20px;
     }
     input{
         width: 300px;
     }
     h2{
+        margin-top: 20px;
         text-align: left;
     }
     li:hover{
         cursor: pointer;
+    }
+    #addButton{
+        margin-bottom: 20px;
     }
 
     /*classe pour afficher ou masque la liste*/

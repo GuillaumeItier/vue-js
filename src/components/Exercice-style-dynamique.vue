@@ -25,3 +25,10 @@
     }
 
 </script>
+<style scoped>
+    .card{
+        width: 500px;
+        margin: 20px;
+    }
+
+</style>

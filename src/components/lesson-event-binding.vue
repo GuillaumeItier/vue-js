@@ -157,6 +157,4 @@ function submitForm() {
 }
 </script>
 
-<style scoped>
-/* Les styles sont gérés par DaisyUI et Tailwind. */
-</style>
+

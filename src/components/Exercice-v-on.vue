@@ -23,7 +23,7 @@ import { ref } from 'vue';
 
 </script>
 
-<style>
+<style scoped>
     div{
         display: flex;
         gap: 20px;

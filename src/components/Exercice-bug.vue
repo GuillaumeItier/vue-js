@@ -10,7 +10,7 @@
 <script setup>
 import { ref } from 'vue';
 
-    let userName = "" ;
+    let userName = ref("") ;
 
     let number = ref(0);
     let number1 = ref(11);
@@ -33,7 +33,7 @@ import { ref } from 'vue';
 
 </script>
 
-<style>
+<style scoped>
     div{
         display: flex;
         gap: 20px;

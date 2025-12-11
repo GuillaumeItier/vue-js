@@ -14,6 +14,12 @@ import TpStyleDynamique from './components/Tp-style-dynamique.vue';
 import ExerciceVIf from './components/Exercice-v-if.vue';
 import ExerciceVFor from './components/Exercice-v-for.vue';
 import TpRendering from './components/Tp-conditionnal-list-rendering-v-for.vue';
+import lessonEventBinding from './components/lesson-event-binding.vue';
+
+
+
+
+;
 
 </script>
 

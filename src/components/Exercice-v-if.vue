@@ -28,7 +28,7 @@
 
 </script>
 
-<style>
+<style scoped>
     #divForm{
         border: 1px solid grey;
         margin-left: 50px;
@@ -38,12 +38,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
     input{
+        margin-top: 20px;
         width: 300px;
     }
     h2{
+        margin-top: 20px;
         text-align: left;
+    }
+    button{
+        margin-top: 20px;
+    }
+    p{
+        margin-top: 20px;
     }
 
 

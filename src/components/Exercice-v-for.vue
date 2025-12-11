@@ -37,22 +37,29 @@
 
 </script>
 
-<style>
+<style scoped>
     #divForm{
         border: 1px solid grey;
         margin-left: 50px;
-        height: 300px;
-        width: 400px;
+        height: 400px;
+        width: 500px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        gap: 20px;
+        
     }
     input{
         width: 300px;
     }
     h2{
+        margin-top: 20px;
         text-align: left;
+    }
+    ul{
+        height: 200px;
+        overflow: auto;
     }
     li:hover{
         cursor: pointer;

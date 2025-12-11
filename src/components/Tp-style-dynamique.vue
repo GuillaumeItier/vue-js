@@ -60,7 +60,7 @@
 
 </script>
 
-<style>
+<style scoped>
     .classNone{
         display : none;
     }

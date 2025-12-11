@@ -1,11 +1,15 @@
 <template>
-    <div>
+    <div id="container">
+        <div id="buttonContainer">
         <button v-on:click="plus5(number1)" type="button" class="btn btn-success">+5</button>
         
         <button v-on:click="plus1(number2)" type="button" class="btn btn-danger">+1</button>
-
-        <p>{{ info }}</p>
+        </div>
+        <div>
+            <p>{{ info }}</p>
+        </div>
     </div>
+    
 </template>
 
 <script setup>
@@ -40,3 +44,22 @@ import { ref, watch } from 'vue';
 
     })
 </script>
+<style scoped>
+    #container{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #buttonContainer{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    
+    button{
+        margin: 20px;
+    }
+</style>
