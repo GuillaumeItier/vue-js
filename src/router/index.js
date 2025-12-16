@@ -44,6 +44,14 @@ routes:[
             },
             component: () => import('../components/lesson-props.vue')
         },
+         {
+            path: '',
+            name: 'hello',
+            meta: {
+                description: 'hello'
+            },
+            component: () => import('../components/HelloWorld.vue')
+        },
          
 ]
 });
