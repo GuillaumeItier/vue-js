@@ -1,4 +1,41 @@
+<template>
+  <!-- <div class="min-h-screen flex flex-col bg-base-200 text-base-content">
+    <AppHeader /> -->
+    <!-- Conteneur principal du contenu, centré et responsive -->
+    <main class="flex-1 w-full max-w-7xl mx-auto p-4 md:p-8">
+      <!-- Ici on aura la router view -->
+      <router-view></router-view>
+      <!-- <RouterView></RouterView> -->
+    </main>
+    <!-- Footer en bas de la page -->
+    <!-- <AppFooter />
+  </div> -->
+</template>
+
 <script setup>
+// import AppHeader from './components/AppHeader.vue';
+// import AppFooter from './components/AppFooter.vue';
+// import HelloWorld from './components/HelloWorld.vue';
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script setup>
 import TpDataBinding from './components/TpDataBinding.vue';
 import Bienvenue from './components/Bienvenue.vue';
 import HelloWorld from './components/HelloWorld.vue';
@@ -15,16 +52,11 @@ import ExerciceVIf from './components/Exercice-v-if.vue';
 import ExerciceVFor from './components/Exercice-v-for.vue';
 import TpRendering from './components/Tp-conditionnal-list-rendering-v-for.vue';
 import lessonEventBinding from './components/lesson-event-binding.vue';
-
-
-
-
-;
-
+import LessonEventBinding from './components/lesson-event-binding.vue';
 </script>
 
 <template>
-<TpRendering/>
+
   
   <!-- <Bienvenue/>
   <div>
@@ -35,7 +67,7 @@ import lessonEventBinding from './components/lesson-event-binding.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" /> -->
+  <HelloWorld msg="Vite + Vue" /> 
 </template>
 
 <!-- <style scoped>
@@ -51,4 +83,4 @@ import lessonEventBinding from './components/lesson-event-binding.vue';
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
-</style> -->
+</style> --> 
